@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f5f7fb;
+}
+
+.app-shell {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  padding: 12px 24px;
+  background: #111827;
+  color: white;
+}
+
+.app-body {
+  flex: 1;
+  display: flex;
+}
+
+.sidebar {
+  width: 280px;
+  padding: 16px;
+  background: #ffffff;
+  border-right: 1px solid #e5e7eb;
+  overflow-y: auto;
+}
+
+.main-content {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+.filter-group {
+  margin-bottom: 12px;
+}
+.filter-label {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.filter-options label {
+  display: block;
+  font-size: 12px;
+}
+.filter-inline {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.filter-inline input {
+  width: 45%;
+}
+
+.sort-bar {
+  display: flex;
+  gap: 8px;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.transaction-table th,
+.transaction-table td {
+  border: 1px solid #e5e7eb;
+  padding: 6px 8px;
+  font-size: 12px;
+}
+
+.transaction-table th {
+  background: #f3f4f6;
+}
+
+.pagination {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.no-results {
+  margin-top: 16px;
+}
+
+.error {
+  color: #b91c1c;
+  margin-top: 8px;
+}
